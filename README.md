@@ -9,6 +9,7 @@ It is a React application built using the following dependencies:
   "react": "^18.3.1",
   "react-dom": "^18.3.1"
 }
+```
 
 ## Project Links
 - **Figma Design**: [Task Design on Figma](https://www.figma.com/design/R7kXgOD4GDtrbS1J6Q0kF9/Task?node-id=1-388&node-type=frame&t=iem3WHHGc1r4QP3a-0) 
