@@ -5,6 +5,7 @@ import Footer from './Components/Footer'
 import Header from './Components/Header'
 import PopularCourses from './Components/PopularCourses'
 import ServicesSection from './Components/Provide'
+import TestimonialsSection from './Components/Testimonials'
 
 function App() {
 
@@ -14,6 +15,7 @@ function App() {
     <Banner/>
     <PopularCourses/>
     <ServicesSection/>
+    <TestimonialsSection/>
     <Footer/>
     </>
   )
