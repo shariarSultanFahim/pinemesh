@@ -22,8 +22,8 @@ Follow the steps below to run this project locally:
 
 ### Clone the Repository
 ```bash
-git clone <repository-url>
-cd <repository-folder>
+git clone <https://github.com/shariarSultanFahim/pinemesh.git>
+cd <pinemesh>
 ```
 
 ### Install Dependencies
