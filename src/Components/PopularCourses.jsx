@@ -120,7 +120,7 @@ export default function PopularCourses() {
   })
 
   return (
-    <section className="py-16">
+    <section className="py-16 max-w-screen-xl mx-auto">
       <div className="container mx-auto px-4">
         <div className="mb-8 flex flex-col md:flex-row justify-center md:justify-between">
           <div>

@@ -1,4 +1,5 @@
 import bannerImage from '../assets/bannerImage.jpg';
+import frame from '../assets/Frame.png'
 
 export default function Banner() {
   return (
@@ -44,13 +45,19 @@ export default function Banner() {
               </button>
             </div>
           </div>
-          <div className="relative">
-            <div className="overflow-hidden rounded-3xl">
+          <div className="relative max-h-screen">
+            <div className="object-center h-full w-full overflow-hidden rounded-3xl">
               <img
                 src={bannerImage}
                 alt="Abstract wellness illustration"
-                className="h-full w-full object-cover"
+                className="h-full w-full object-cover object-center"
               />
+            </div>
+            <div className='absolute top-1/4 -left-8'>
+                <img 
+                src={frame} 
+                alt="frame"
+                className='w-16 h-16' />
             </div>
 
             <div className="absolute bottom-4 left-4 right-4 rounded-2xl bg-white/50  backdrop-blur">
